@@ -1,12 +1,13 @@
 var mysql = require('mysql');
 
+//部分隐去
 //创建连接池
 const pool =  mysql.createPool({
-  host: '112.124.65.59',
+  host: '*********',
   port: '3306',
-  user: 'moyu',
-  password: '040511',
-  database: 'softwareHomework'
+  user: '*******',
+  password: '**********',
+  database: '*******'
 });
 
 
